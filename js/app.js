@@ -46,7 +46,7 @@ document.getElementsByClassName("profile")[1].innerHTML = "I'm making this up";
 
 Find the div with the class name of "alias" and replace the n/a with your favorite character that Sammy portrayed.*/
 
-
+document.getElementsByClassName("alias")[2].innerHTML = "Mace Windu?";
 
 /*7. Peter Griffin
 
