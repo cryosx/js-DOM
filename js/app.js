@@ -27,9 +27,6 @@ Concatenation*/
 document.getElementById("alias3").innerHTML = "Concatenation";
 
 
-
-
-
 /*4. Prince
 
 Find the div with the class name of "profile" and replace the n/a with a verse from your favorite Prince song.*/
@@ -54,6 +51,11 @@ Create a div element and give it an id of "name7". Inside this div element, give
 
 Append this div element to the nameParent div*/
 
+var temp = document.createElement("div");
+temp.setAttribute("id", "name7");
+temp.innerHTML = "Peter Griffin";
+
+document.getElementById("nameParent").appendChild(temp);
 
  
 /*8. Tim Duncan
