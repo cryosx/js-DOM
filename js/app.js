@@ -34,7 +34,7 @@ document.getElementById("alias3").innerHTML = "Concatenation";
 
 Find the div with the class name of "profile" and replace the n/a with a verse from your favorite Prince song.*/
 
-
+document.getElementsByClassName("profile")[0].innerHTML = "Haven't listened to a Prince song in my life"
 
 /*5. Bruce Lee
 
