@@ -34,13 +34,13 @@ document.getElementById("alias3").innerHTML = "Concatenation";
 
 Find the div with the class name of "profile" and replace the n/a with a verse from your favorite Prince song.*/
 
-document.getElementsByClassName("profile")[0].innerHTML = "Haven't listened to a Prince song in my life"
+document.getElementsByClassName("profile")[0].innerHTML = "Haven't listened to a Prince song in my life";
 
 /*5. Bruce Lee
 
 Find the div with the class name of "profile" and replace the n/a with a quote from the legend himself.*/
 
-
+document.getElementsByClassName("profile")[1].innerHTML = "I'm making this up";
 
 /*6. Samuel L Jackson
 
