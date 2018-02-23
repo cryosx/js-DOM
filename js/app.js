@@ -64,7 +64,11 @@ Create a div element give it an id of "alias8". Inside this div element, give it
 
 Append this div element to the aliasParent div.*/
 
+var temp = document.createElement("div");
+temp.setAttribute("id", "alias8");
+temp.innerHTML = "Old Man Riverwalk";
 
+document.getElementById("aliasParent").appendChild(temp);
 
 //Final Boss
 /*9. Create your own profile.*/
